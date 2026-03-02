@@ -1,0 +1,88 @@
+name: somos_tunja_app
+description: Demo visual de la app de Tunja, sin backend
+version: 1.1.2+2005
+
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^4.0.7
+  table_calendar: ^3.0.9
+  shared_preferences: ^2.2.2
+  font_awesome_flutter: ^10.7.0
+  image_picker: ^1.0.7
+  url_launcher: ^6.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/40_segundos.png
+    - assets/images/40_segundos_mesa_de_trabajo_55.png
+    - assets/images/activa_t.png
+    - assets/images/activa_t_mesa_de_trabajo_70.png
+    - assets/images/alarmas.png
+    - assets/images/bienestar_animal.png
+    - assets/images/bienestar_animal_mesa_de_trabajo_72.png
+    - assets/images/catastro_mesa_de_trabajo_76.png
+    - assets/images/departamento_de_catastro.png
+    - assets/images/ilustracion.png
+    - assets/images/ilustracion_fondo_blanco.jpg
+    - assets/images/informacion.png
+    - assets/images/logo.png
+    - assets/images/logo_1.png
+    - assets/images/logo_2.png
+    - assets/images/logo_3.png
+    - assets/images/logo_4.png
+    - assets/images/modelo_enproceso.jpg
+    - assets/images/noti_mesa_de_trabajo_54_copia_7.png
+    - assets/images/participacion_ciudadana.png
+    - assets/images/participacion_ciu.png
+    - assets/images/pico_y_placa.png
+    - assets/images/pico_y_placa_mesa_de_trabajo_93.png
+    - assets/images/pico_y_placa_mesa_de_trabajo_94.png
+    - assets/images/plan_de_desarrollo.png
+    - assets/images/plan_de_desarrollo_mesa_de_trabajo_97.png
+    - assets/images/portal_tributario.png
+    - assets/images/pqrs.png
+    - assets/images/rendicion_de_cuentas.png
+    - assets/images/rutas_de_atencion.png
+    - assets/images/seguridad.png
+    - assets/images/seguridad_mesa_de_trabajo.png
+    - assets/images/siedu.png
+    - assets/images/siedu_mesa_de_trabajo_150.png
+    - assets/images/trasporte_publico.png
+    - assets/images/turismo.png
+    - assets/images/turismo_mesa_de_trabajo_150_.png
+    - assets/images/unnamed3.png
+    - assets/images/fondo.png
+    - assets/images/fondo_bucar.jpg
+    - assets/images/flecha.png
+    - assets/images/Pico_y_Placa_App_FOTO_PRINCIPAL_1.png
+    - assets/images/Pico_y_Placa_App_FOTO_PRINCIPAL_2.png
+
+# --- SPLASH SCREEN 
+
+flutter_native_splash:
+  color: "#00282F"  
+  image: assets/images/unnamed3.png
+  android: true
+  ios: true
+  web: false
+
+  # Configuración para flutter_launcher_icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/unnamed3.png"
